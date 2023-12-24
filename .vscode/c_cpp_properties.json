@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win", // 指示平台，如 Mac/Linux/Windows，实测乱填也行
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/opencv/build/include"
+            ],
+            "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
+            "compilerPath": "C:/mingw64-posix/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
